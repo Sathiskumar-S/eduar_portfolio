@@ -1,6 +1,7 @@
  <pre>
 
 <?php
+//echo $_SERVER['DOCUMENT_ROOT'];
 
 global $__site_config;
 $__site_config = "../eduarconfig.json";

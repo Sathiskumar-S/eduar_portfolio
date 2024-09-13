@@ -1,29 +1,16 @@
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
-  <head><script src="/docs/5.3/assets/js/color-modes.js"></script>
-
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="author" content="Sathis">
     <meta name="generator" content="Hugo 0.122.0">
     <title>Signup - Eduar</title>
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-    <!-- Favicons -->
-<link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-<link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
-<link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
-<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
-
-
 <!-- custom css  -->
-<link rel="stylesheet" href="css/signup.css">
+<link rel="stylesheet" href="css/signup.css?<?php echo time();?>">
 <meta name="theme-color" content="#712cf9">
 
 
@@ -114,7 +101,10 @@
   <form>
     <img class="mb-4" src="img/logo_2.png" alt="" width="200" height="100">
     <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
-
+    <div class="form-floating">
+      <input type="text" class="form-control username" id="floatingInput" placeholder="name@example.com" fdprocessedid="8mphx">
+      <label for="floatingInput">Name</label>
+    </div>
     <div class="form-floating">
       <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" fdprocessedid="8mphx">
       <label for="floatingInput">Email address</label>
@@ -123,6 +113,29 @@
       <input type="password" class="form-control" id="floatingPassword" placeholder="Password" fdprocessedid="j18n95">
       <label for="floatingPassword">Password</label>
     </div>
+    <div class="form-floating">
+      <input type="text" class="form-control schoolname" id="floatingInput" placeholder="name@example.com" fdprocessedid="8mphx">
+      <label for="floatingInput">School Name</label>
+    </div>
+    <select class="form-select medium" aria-label="Default select example">
+      <option selected>Select medium of education</option>
+      <option value="tamil">Tamil</option>
+      <option value="english">English</option>
+    </select>
+    <select class="form-select standard" aria-label="Default select example">
+      <option selected>Select standard</option>
+      <option value="1">First Standard</option>
+      <option value="2">Second Standard</option>
+      <option value="3">Third Standard</option>
+      <option value="4">Fourth Standard</option>
+      <option value="5">Fifth Standard</option>
+      <option value="6">Sixth Standard</option>
+      <option value="7">Seventh Standard</option>
+      <option value="8">Eighth Standard</option>
+      <option value="9">Nine Standard</option>
+      <option value="10">Ten Standard</option>
+    </select>
+    
 
     <div class="checkbox mb-3">
       <label>
@@ -132,12 +145,6 @@
     <button class="w-100 btn btn-lg btn-primary" type="submit" fdprocessedid="3bt2uo">Sign in</button>
     <p class="mt-5 mb-3 text-muted">© 2017–2021</p>
   </form>
-</main>
-
-
-    
-  
-
-<span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span><iframe src="https://mozbar.moz.com/bartender/third-party/start" style="display:none"></iframe>
+</main> 
 </body>
 </html>

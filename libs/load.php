@@ -4,7 +4,8 @@ include_once "includes/Database.class.php";
 
 //function for loading the template files
 function load_template($filename){
-    include $_SERVER['DOCUMENT_ROOT']."/eduar/_templates/$filename.php";
+    include $_SERVER['DOCUMENT_ROOT']."/_templates/$filename.php";
+    // echo $filename;
 }
 
 global $__site_config;
