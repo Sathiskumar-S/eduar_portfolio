@@ -98,31 +98,31 @@
 <body class="text-center">
     
 <main class="form-signin">
-  <form>
+  <form action="" method="POST"> 
     <img class="mb-4" src="img/logo_2.png" alt="" width="200" height="100">
     <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
     <div class="form-floating">
-      <input type="text" class="form-control username" id="floatingInput" placeholder="name@example.com" fdprocessedid="8mphx">
+      <input type="text" class="form-control username" id="floatingInput" placeholder="name@example.com" fdprocessedid="8mphx" name="username">
       <label for="floatingInput">Name</label>
     </div>
     <div class="form-floating">
-      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" fdprocessedid="8mphx">
+      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" fdprocessedid="8mphx"  name="email">
       <label for="floatingInput">Email address</label>
     </div>
     <div class="form-floating">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Password" fdprocessedid="j18n95">
+      <input type="password" class="form-control" id="floatingPassword" placeholder="Password" fdprocessedid="j18n95" name="password">
       <label for="floatingPassword">Password</label>
     </div>
     <div class="form-floating">
-      <input type="text" class="form-control schoolname" id="floatingInput" placeholder="name@example.com" fdprocessedid="8mphx">
+      <input type="text" class="form-control schoolname" id="floatingInput" placeholder="name@example.com" fdprocessedid="8mphx" name="schoolname">
       <label for="floatingInput">School Name</label>
     </div>
-    <select class="form-select medium" aria-label="Default select example">
+    <select class="form-select medium" aria-label="Default select example" name="medium">
       <option selected>Select medium of education</option>
       <option value="tamil">Tamil</option>
       <option value="english">English</option>
     </select>
-    <select class="form-select standard" aria-label="Default select example">
+    <select class="form-select standard" aria-label="Default select example" name="standard">
       <option selected>Select standard</option>
       <option value="1">First Standard</option>
       <option value="2">Second Standard</option>
@@ -142,7 +142,7 @@
         <input type="checkbox" value="remember-me"> Remember me
       </label>
     </div>
-    <button class="w-100 btn btn-lg btn-primary" type="submit" fdprocessedid="3bt2uo">Sign in</button>
+    <button class="w-100 btn btn-lg btn-primary" type="submit" fdprocessedid="3bt2uo" name="signup">Sign in</button>
     <p class="mt-5 mb-3 text-muted">© 2017–2021</p>
   </form>
 </main> 
